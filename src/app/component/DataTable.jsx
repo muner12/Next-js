@@ -10,7 +10,7 @@ const DataTable = ({ columns, data }) => {
 
   const onDrop = (e, targetColumn) => {
     const draggedColumn = e.dataTransfer.getData('text/plain');
-    // Implement your logic to reorder columns based on the dragged and target columns
+    // Implement your logic toasdas reorder columns based on the dragged and target columns
     console.log(`Move column from ${draggedColumn} to ${targetColumn}`);
   };
 
